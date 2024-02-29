@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff
     ;
@@ -14,13 +14,24 @@ a {
 }
 
 .logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.studio-logo {
+    color: #2e2f42;
 }
 
 .page-nav .link {
     color: #2e2f42;
     line-height: 1.5;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .page-nav .link:hover,
@@ -32,9 +43,14 @@ a {
     color: #404bbf;
 }
    
+.contacts-address {
+    font-style: normal;
+}
+
 .contact-link .contact-information {
     color: #434455;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .contact-link .contact-information:hover,
@@ -53,14 +69,19 @@ a {
 .hero-title {
     color: #ffffff;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .hero-button {
     color: #ffffff;
+    font-family: "Roboto", sans-serif;
     background-color: #4d5ae5;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .hero-button:hover,
@@ -76,10 +97,13 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .benefits-title {
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .team {
@@ -88,13 +112,19 @@ a {
 
 .team-headlines {
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .team-card-mark {
@@ -115,7 +145,11 @@ a {
 
 .portfolio-headlines {
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .card {
@@ -126,6 +160,19 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.card-content {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-title {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .page-footer {
@@ -135,4 +182,5 @@ a {
 .title-footer {
     color: #f4f4fd;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
